@@ -43,5 +43,7 @@ cmake --build vcpkg-build
 ## install from overlay
 ```shell
 vcpkg install port-example --overlay-ports=/path/to/vcpkg-port-example/vcpkg-overlay
+
+# for example
 vcpkg install port-example --overlay-ports=/home/wii/code/vcpkg-port-example/vcpkg-overlay
 ```
