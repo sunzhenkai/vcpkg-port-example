@@ -39,3 +39,9 @@ add files `include/common.h`, `src/common.cpp`
 cmake --preset=default
 cmake --build vcpkg-build
 ```
+
+## install from overlay
+```shell
+vcpkg install port-example --overlay-ports=/path/to/vcpkg-port-example/vcpkg-overlay
+vcpkg install port-example --overlay-ports=/home/wii/code/vcpkg-port-example/vcpkg-overlay
+```
